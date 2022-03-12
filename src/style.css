@@ -1,0 +1,44 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+
+.title{
+  font-size: 60px;
+  font-family: cursive;
+}
+.lamp{
+  margin: 5px 0px 0px 0px;
+}
+.img{
+  width: 20vw;
+}
+
+.btn{
+  padding-top: 30px;
+  display: flex;
+  
+}
+
+.states{
+  padding-top: 10%;
+  width: 150px;
+  height: 40px;
+  background-color: aliceblue;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: 50ms;
+}
+.states:active{
+  background-color:silver;
+  font-weight: 600;
+  border: 3px solid black;
+}
